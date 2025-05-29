@@ -94,10 +94,19 @@
               </p>
 
               <div class="mt-7 grid gap-3 w-full sm:inline-flex">
+                <!-- Bouton Prendre rendez-vous -->
                 <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="/all/doctors">
                   Prenez rendez-vous
                   <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </a>
+
+                <!-- Lien vers la FAQ -->
+                <a href="#faq" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-50 transition">
+                  FAQ
+                  <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.0004 8.99963L12.0001 14.9999L5.99634 8.99609" stroke="#0274ed" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="my-path"></path>
                   </svg>
                 </a>
               </div>
